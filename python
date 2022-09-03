@@ -1,0 +1,17 @@
+import calculator
+x=int(input("Enter the number : "))
+y=int(input("Enter the number : "))
+calculator.add(x,y)
+calculator.sub(x,y)
+calculator.multiply(x,y)
+calculator.division(x,y)
+
+import datetime
+x=datetime.datetime.now()
+print(x)
+
+def add():
+  x=int(input("Enter the number"))
+  y=int(input("Enter the number"))
+  print("The sum of two numbers is : ", (x+y))
+add() 
